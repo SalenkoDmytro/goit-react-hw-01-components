@@ -1,0 +1,21 @@
+.transactionHistory {
+  font-size: 18px;
+  min-width: 400px;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.head {
+  background-color: rgb(178, 247, 224);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.item:nth-child(2n) {
+  background-color: rgb(206, 236, 226);
+}
+
+.data {
+  min-width: 200px;
+  padding: 10px 20px;
+}

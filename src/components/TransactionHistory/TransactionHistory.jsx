@@ -6,9 +6,9 @@ export default function TransactionHistory({ items }) {
     <table className={s.transactionHistory}>
       <thead className={s.head}>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={s.data}>Type</th>
+          <th className={s.data}>Amount</th>
+          <th className={s.data}>Currency</th>
         </tr>
       </thead>
 
